@@ -1,7 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-## makeCacheMatrix() is a function that caches/stores and retrieves cached/stored matrices
-## cacheSolve() is a function that calculates the inverse of the cached matrix if it does not already exist
+## makeCacheMatrix() is a function that caches/stores and retrieves
+## cached/stored matrices
+## cacheSolve() is a function that calculates the inverse of the
+## cached matrix if it does not already exist
 
 
 ## Write a short comment describing this function
@@ -22,7 +24,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 ## First checks if any inversed matrix is already cached and return that matrix
-## If no inversed matrix was already cached, retrieves original matrix and solves for its inverse and caches it
+## If no inversed matrix was already cached, retrieves original matrix and
+## solves for its inverse and caches it
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
